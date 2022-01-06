@@ -1,0 +1,128 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(211, 204, 204);
+}
+img{
+    max-width: 100%;
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+@media ( min-width:768px){
+    .container{
+        flex-direction: row;
+        width: 60%;
+        height: 50vh;
+        margin: 6rem auto;
+}
+}
+.side-l{
+    background: #c2a548;
+    padding: 2rem;
+    margin: 0 auto;
+}
+@media (min-width: 768px){
+    .side-l{
+        width: 50%;
+        height: 25rem;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+
+
+    }
+}
+.lugo{
+    font-size: 3rem;
+    text-transform: capitalize;
+    color: #313538;
+}
+@media (min-width: 768px){
+
+    .img{
+        position: absolute;
+        transform: scale(1.4);
+        left: -1rem;
+        top: 1rem;
+        
+    }
+    .lugo{
+        font-size: 4rem;
+        color:rgba(105, 102, 102, 0.5)
+    }
+}
+.air{
+    font-size: 2.6rem;
+    color: #313538;
+    text-align: end;
+}
+.side-r{
+    padding: 2rem;
+}
+@media (min-width: 768px){
+    .side-r{
+        width: 50%;
+    }
+    .air{
+        color:rgba(105, 102, 102, 0.5);
+        text-transform: capitalize;
+        text-align: start;
+
+    }
+ 
+}
+.title{
+    font-size: 2rem;
+    color: #313538;
+    text-transform: capitalize;
+
+}
+.subtitle{
+    color:#313538;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+.content{
+    font-family: Verdana, sans-serif;
+}
+@media (min-width: 768px){
+    .content{
+        margin-left: 2rem;
+    }
+}
+.buy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+.price{
+    font-size: 2rem;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: bold;
+    color: rgba(49, 53, 56, 0.5);
+    margin: 2rem 0;
+}
+
+.button{
+background: #fa0303;
+border-radius: 2rem;
+padding: 0 1rem;
+border-width: 0;
+height: 2.5rem;
+font-weight: 600;
+}
