@@ -1,2 +1,2 @@
 # card-calzado
-Tarjeta de zapato resposive
+Tarjeta de zapato responsive
